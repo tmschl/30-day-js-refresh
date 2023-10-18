@@ -8,7 +8,7 @@ var reduce = function(nums, fn, init) {
       return init;
     } else {
       solution = fn(solution, nums[i]);
-    }
+    }``
 
   }
   console.log(solution);
